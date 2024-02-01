@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <nav>
+    <!-- 以下がrouter-link -->
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/todo-list">TodoList</router-link> |
+      <router-link to="/issue-list">IssueList</router-link>|
+      <router-link to="/todos-issues">Todos-Issues</router-link>
     </nav>
     <router-view/>
   </div>
